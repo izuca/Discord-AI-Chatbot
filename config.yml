@@ -11,9 +11,9 @@ MAX_HISTORY: 8 # Set the maximum message history
 PRESENCES_CHANGE_DELAY: 8 # Please note that the Presences Change Delay is measured in seconds. It is advisable not to set it too low, as doing so may result in your bot being rate-limited by Discord
 AI_NSFW_CONTENT_FILTER: true # Enable NSFW AI detector to detect NSFW prompt on Imagine Command
 
-LANGUAGE: en # Specify the language code (check 'lang' folder for valid codes)
+LANGUAGE: pt # Specify the language code (check 'lang' folder for valid codes)
 
-INSTRUCTIONS: assist # Specify the instruction prompt to use (check 'instructions' folder for valid prompts)
+INSTRUCTIONS: Izuca # Specify the instruction prompt to use (check 'instructions' folder for valid prompts)
 # To add custom prompts, create a .txt file like 'custom.txt' in `instructions` folder and set INSTRUCTIONS as 'custom'
 
 Discord: https://discord.gg/6MT3CZauT8
@@ -23,15 +23,21 @@ TRIGGER:
   - chatbot
   - bot nickname
   - bot alias
+  - adm
+  - adm izuca
+  - ADM
+  - ADM IZUCA
+  - Izucabot
+  - Izuca
   - bot name
   - Other bot alias...
 # Define the triggers that the bot should always respond to when in message
 
 DISABLE_PRESENCE: false 
 PRESENCES:
-  - How can I assist you?
-  - Currently in {guild_count} guilds
-  - Support at https://discord.gg/6MT3CZauT8
+  - Como o ADM pode te ajudar?
+  - Cuidando da geopolítica brasileira
+  - Cuidando dos membros do grupo
 # List of different presences to be used
 
 OCR_MODEL_URLS:
